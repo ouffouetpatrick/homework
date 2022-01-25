@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*figer la barre de navigation*/
+.navbar{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    cursor: pointer;
+    background-color: #4364EA;
+}
+
+.nav-list {
+    display: flex; /*disposition horizontale*/
+}
+
+.nav-list li {
+    list-style: none; /*supprime les puces*/
+    padding: 26px 30px; /*espacement entre les li*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-list li a {
+    text-decoration: none; /*supprime les traits*/
+    color: black;
+}
+
+.nav-list li a:hover {
+    color: rgba(188, 185, 199, 0.726);
+}
+
+.titre{
+    margin-right: 20%;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+#banner{
+    align-items: center;
+    display: flex;/*disposition horizontale*/
+    margin-left: 2%;
+    /*width: 50%;
+    height: 30%;
+    /*border-style: double;
+    background-color: rgba(188, 185, 199, 0.726);
+    float: right;*/
+}
+
+.image{
+    width: 50%;
+}
+
+.texte{
+    width: 50%;
+    text-align: justify;
+}
+
+#detail{
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+}
+
+.bloc1{
+    width: 50%;
+    /*border-style: double;*/
+    padding: 2%;
+    text-align: center;
+}
+
+.bloc2{
+    width: 50%;
+    /*border-style: double;*/
+    padding: 2%;
+    text-align: center;
+}
+
+#newsletter{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    float: center;
+    background-color: blue;
+    padding: 1%;
+    width: auto;
+}
+
+.new{
+    width: 40%;
+    color: white;
+    /*border-style: double;*/
+}
+
+.form{
+    width: 40%;
+    /*border-style: double;*/
+    margin-left: 30%;
+}
+
+.propos{
+   background-color: gray;
+   text-align: justify;
+   padding: 1%;
+}
+
+footer{
+    display: flex;
+}
+
+.contact{
+    width: 40%;
+    text-align: left;
+    margin-left: 1%;
+}
+
+.copyright{
+    width: 60%;
+}
